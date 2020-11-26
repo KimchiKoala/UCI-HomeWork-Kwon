@@ -1,0 +1,40 @@
+/* Header styling */
+h2 {
+    color: cadetblue;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+h3 {
+    color:cadetblue;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    background-color: cadetblue;
+    font-size: 25px;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+/* Navbar Styling */
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: large;
+    padding:15px;
+    color: steelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    width: 80%;
+  }
