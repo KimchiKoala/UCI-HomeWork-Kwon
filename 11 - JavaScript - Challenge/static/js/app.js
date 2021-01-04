@@ -26,6 +26,7 @@ var submit = d3.select("#submit");
 submit.on("click", function() {
     console.log("filter button test")
 
+    
   // Prevent the page from refreshing...
   d3.event.preventDefault();
 
@@ -62,6 +63,9 @@ submit.on("click", function() {
 
 // create a variable that selects all of the form-control classes, aka the table entries
 var filterInputs = d3.selectAll('.form-control');
+
+
+
 
 // Clears input fields and input object, using a clearEntries function
 function clearEntries() {
