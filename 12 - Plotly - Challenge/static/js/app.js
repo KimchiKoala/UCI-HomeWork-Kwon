@@ -32,7 +32,7 @@ function buildCharts(sample) {
       }
     ];
 
-    Plotly.plot("bubble", DataBubble, BubbleLayout);
+    Plotly.newPlot("bubble", DataBubble, BubbleLayout);
 
 
     //  Build a bar Chart
